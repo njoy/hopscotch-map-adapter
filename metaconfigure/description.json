@@ -1,0 +1,46 @@
+{
+  "file extension": {
+    "header files": [
+      "h++",
+      "hxx",
+      "hpp",
+      "hh",
+      "h"
+    ],
+    "implementation files": [
+      "c++",
+      "cxx",
+      "cpp",
+      "cc"
+    ]
+  },
+  "header files": [
+    "src/src/hopscotch_hash.h",
+    "src/src/hopscotch_map.h",
+    "src/src/hopscotch_sc_map.h",
+    "src/src/hopscotch_sc_set.h",
+    "src/src/hopscotch_set.h",
+    "src/tests/utils.h"
+  ],
+  "ignore pattern": "$^",
+  "implementation files": [
+    "src/tests/hopscotch_map_tests.cpp",
+    "src/tests/hopscotch_set_tests.cpp",
+    "src/tests/main.cpp"
+  ],
+  "include path": "src/src",
+  "initialized": true,
+  "is external project": true,
+  "language": "c++",
+  "name": "hopscotch-map-adapter",
+  "standard": "c++14",
+  "standards": [
+    "c++98",
+    "c++11",
+    "c++14"
+  ],
+  "strict": true,
+  "test pattern": "test$",
+  "tests": {},
+  "update": false
+}
